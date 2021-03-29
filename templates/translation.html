@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8"/>
+    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, minimum-scale=1.0, maximum-scale=1.0"/>
+    <meta name="description" content="Flatfy Free Flat and Responsive HTML5 Template "/>
+    <meta name="author" content=""/>
+    <!-- Bootstrap core CSS -->
+    <link href="/static/css/bootstrap.min.css" rel="stylesheet"/>
+    <!-- Custom CSS-->
+    <link href="/static/css/general.css" rel="stylesheet"/>
+     <!-- Owl-Carousel -->
+     
+    <link href="/static/css/test.css" rel="stylesheet"/>
+    <link href="/static/css/style.css" rel="stylesheet"/>
+</head>
+<body>
+    <!-- NavBar-->
+	<nav class="navbar-default" role="navigation">
+		<div class="container">
+			<div class="navbar-header">
+				<button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
+					<span class="sr-only">Toggle navigation</span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+					<span class="icon-bar"></span>
+				</button>
+				<a class="navbar-brand" href="#home">中英互译</a>
+			</div>
+
+			<div class="collapse navbar-collapse navbar-right navbar-ex1-collapse">
+				<ul class="nav navbar-nav" id="nav-bar">
+					<li class="menuItem" id="function"><a href="#">Function</a></li>
+					<li class="menuItem" id="main-page"><a href="#">Main Page</a></li>
+					<li class="menuItem" id="register-item"><a href="#">Register</a></li>
+					<li class="menuItem" id="login-item"><a href="#">Login</a></li>
+				</ul>
+			</div>	   
+		</div>
+    </nav>
+    <div class="main-frame-translation" align="center">
+        <div class="control-bar">
+            <div class="exe-translation">
+                <a class="btn btn-embossed btn-primary" id="start-trans" href="javascript:" role="button">翻译</a>
+            </div>
+            <div class="switch-btn" >
+                <a href='#'>
+                    <img src="/static/img/switch.png" width="25" height="25"/>
+                </a>
+            </div>
+        </div>
+        <div class="translation">
+            <div class="b-translate">
+                <p>中文</p>
+                <textarea class="translate-left" rows="10" cols="50" style="resize:none" placeholder="请输入需要翻译的中文"></textarea>
+            </div>
+            <div class="a-translate">
+                <p>英文</p>
+                <textarea class="translate-right" rows="10" cols="50" style="resize:none" disabled="disabled">
+                </textarea>
+            </div>
+        </div>
+    </div>
+    <script src="/static/js/jquery-1.10.2.js"></script>
+    <script src='/static/js/trans.js'></script>
+    <script src="/static/js/md5.js"></script>
+    <script src="/static/js/jquery.cookie.js"></script>
+    <script src="/static/js/sha256.js"></script>
+</body>
+
+
+
+</html>
